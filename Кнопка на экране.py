@@ -7,9 +7,9 @@ def onClick (event):
     global clickCount
     clickCount+=1
     if clickCount ==1:
-        button.configure(text="4619")
+        button.configure(text="НЕ НАЖИМАТЬ")
     elif clickCount == 2:
-        button.configure(text="19529")
+        button.configure(text="Еще раз и кнопка исчезнет")
     else:
         button.pack_forget()
 button.bind("<ButtonRelease - 1>", onClick)
