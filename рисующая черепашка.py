@@ -1,0 +1,52 @@
+from turtle import*
+color("red")
+shape("turtle")
+speed(10)
+pensize(12)
+forward(250)
+right(145)
+forward(250)
+right(145)
+forward(250)
+right(145)
+forward(250)
+right(143)
+forward(250)
+
+from turtle import*
+color("pink")
+shape("turtle")
+speed(1)
+pensize(12)
+forward(50)
+right(120)
+forward(50)
+right(120)
+forward(50)
+
+
+from turtle import*
+color("black")
+shape("turtle")
+speed(1)
+pensize(3)
+for x in range (4):
+    forward(150)
+    right(90)
+
+from turtle import*
+color("aquamarine")
+shape("turtle")
+speed(1)
+pensize(4)
+forward(160)
+left(90)
+forward(80)
+left(90)
+forward(80)
+left(90)
+forward(160)
+right(90)
+forward(80)
+right(90)
+forward(80)
